@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Freaking Color</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="play">PLAY</string>
+    <string name="tut">TUTORIAL</string>
+    <string name="rate">RATE</string>
+    <string name="share">SHARE</string>
+    
+    
+    <string name="result_socre">SCORE</string>
+    <string name="result_best">BEST</string>
+    
+    <string name="tutorial_1">BLUE</string>
+    <string name="tutorial_2">CAN YOU SAY COLOR OF THE WORD?</string>
+    <string name="tutorial_3">DO YOU KNOW</string>
+    <string name="tutorial_4">YOUR RIGHT BRAIN TRIES TO SAY THE COLOR</string>
+    <string name="tutorial_5">BUT</string>
+    <string name="tutorial_6">YOUR LEFT BRAIN INSISTS ON READING THE WORD</string>
+    
+        <!-- play store application link i.e more apps not even change Single Alpahbets if one of your word chacter capital letter then its must be capital here -->
+    <string name="play_more_apps">https://play.google.com/store/apps/developer?id=gkcrop</string>
+    
+      <!-- Admob Banner and Intertestial Ad Id -->
+    <string name="admob_publisher_id">ca-app-pub-1445347942946881/9575063868</string><!-- your admob banner id -->
+    <string name="admob_intertestial_id">ca-app-pub-1445347942946881/2051797065</string><!-- your admob intertestail ad id -->
+    
+    
+    <string name="time">1000</string><!-- your time in miliseconds -->
+    
+    
+     <!-- Exit Dailog Message -->
+    <string name="exit_msg">Are You Sure You Want To Quit?</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+    
+    
+</resources>

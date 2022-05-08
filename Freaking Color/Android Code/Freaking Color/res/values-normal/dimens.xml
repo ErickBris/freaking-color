@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="home_bottom_margin">55.0dip</dimen>
+    <dimen name="result_margin_fragment">10.0dip</dimen>
+    <dimen name="result_width_bt">130.0dip</dimen>
+    <dimen name="result_width_bt_try">230.0dip</dimen>
+    <dimen name="result_textsize_score">40.0dip</dimen>
+    <dimen name="play_margin_bottom">70.0dip</dimen>
+    <dimen name="play_textsize_namecolor">50.0dip</dimen>
+    <dimen name="tutorial_textsize">16.0dip</dimen>
+    <dimen name="tutorial_textsize_part2">13.0dip</dimen>
+    <dimen name="size_button">130.0dip</dimen>
+</resources>

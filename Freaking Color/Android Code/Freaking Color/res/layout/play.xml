@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/play_process"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:indeterminate="false"
+        android:max="10"
+        android:progressDrawable="@drawable/custom_progressbar" />
+
+    <TextView
+        android:id="@+id/play_score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/result_textsize_score"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/play_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginBottom="70.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:textColor="#ff00918f"
+        android:textSize="@dimen/play_textsize_namecolor"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="@dimen/play_margin_bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/play_button_no"
+                android:layout_width="130.0dip"
+                android:layout_height="130.0dip"
+                android:background="@drawable/button_play_no_click" />
+
+            <View
+                android:layout_width="20.0dip"
+                android:layout_height="1.0dip" />
+
+            <Button
+                android:id="@+id/play_button_yes"
+                android:layout_width="130.0dip"
+                android:layout_height="130.0dip"
+                android:background="@drawable/button_play_yes_click" />
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_publisher_id" />  
+    </FrameLayout>
+
+</LinearLayout>

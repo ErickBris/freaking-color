@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_tut2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_dyk"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_dyk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_button"
+            android:text="@string/tutorial_3"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/tutorial_textsize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_your"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_your_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_button"
+            android:text="@string/tutorial_4"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tutorial_textsize_part2" />
+
+        <TextView
+            android:id="@+id/text_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tutorial_textsize_part2"
+            android:text="@string/tutorial_5"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tutorial_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_your_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tutorial_textsize_part2"
+            android:text="@string/tutorial_6"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tutorial_textsize_part2" />
+
+        <Button
+            android:id="@+id/tutorial_button_play"
+            android:layout_width="@dimen/result_width_bt_try"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_button"
+            android:background="@drawable/button_home_click" />
+    </LinearLayout>
+
+</LinearLayout>
